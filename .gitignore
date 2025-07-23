@@ -1,34 +1,61 @@
-# Gradle files
-.gradle/
-build/
+# ========== OS-Specific ==========
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
 
-# Local configuration file (sdk path, etc)
-local.properties
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
 
-# Log/OS Files
-*.log
-
-# Android Studio generated files and folders
-captures/
-.externalNativeBuild/
-.cxx/
-*.aab
-*.apk
-output-metadata.json
-
-# IntelliJ
-*.iml
+# ========== IDEs ==========
+# Android Studio / IntelliJ
 .idea/
-misc.xml
-deploymentTargetDropDown.xml
-render.experimental.xml
+*.iml
+*.ipr
+*.iws
 
-# Keystore files
+# VS Code (optional, remove if not used)
+.vscode/
+
+# ========== Build / Gradle ==========
+.gradle/
+**/build/
+local.properties
+*.log
+*.tmp
+*.temp
+
+# Gradle Wrapper (keep jar, ignore others)
+!gradle-wrapper.jar
+gradle-wrapper.properties
+gradle-wrapper/
+
+# ========== Android Specific ==========
+captures/
+output.json
+.externalNativeBuild/
+
+# Keystore files (sensitive)
 *.jks
 *.keystore
+signing.properties
 
-# Google Services (e.g. APIs or Firebase)
-google-services.json
+# Crashlytics / Firebase
+crashlytics-build.properties
+fabric.properties
 
-# Android Profiling
-*.hprof
+# ========== WebView Frontend (if embedded) ==========
+# Optional: only add if using a frontend (like React/Vue) inside WebView
+node_modules/
+dist/
+.env
+.env.*
+
+# ========== Other ==========
+*.bak
+*.swp
+*.swo
+*.orig
