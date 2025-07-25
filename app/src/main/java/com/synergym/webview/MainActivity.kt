@@ -45,6 +45,6 @@ class MainActivity : AppCompatActivity() {
             }
         }
 
-        webView.loadUrl("http://10.0.2.2:5173")
+        webView.loadUrl("https://pump-orlando-restrict-blood.trycloudflare.com/")
     }
 }
