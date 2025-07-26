@@ -45,6 +45,6 @@ class MainActivity : AppCompatActivity() {
             }
         }
 
-        webView.loadUrl("https://aka-engaged-span-identical.trycloudflare.com")
+        webView.loadUrl("https://respected-evanescence-promote-exist.trycloudflare.com")
     }
 }
