@@ -45,6 +45,6 @@ class MainActivity : AppCompatActivity() {
             }
         }
 
-        webView.loadUrl("https://rna-caribbean-execute-unable.trycloudflare.com ")
+        webView.loadUrl("https://aka-engaged-span-identical.trycloudflare.com")
     }
 }
